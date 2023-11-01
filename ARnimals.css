@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.spinner-wrapper {
+  background-color: #3a78bc;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 10s;
+}
+#animals-loader {
+  height: 270px;
+  width: 270px;
+  display: flex;
+  position: fixed;
+}
+
+#logo {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0072bc;
+  -webkit-text-stroke: 1px #fff301;
+}
+.container-fluid {
+  position: fixed;
+  padding: 15px;
+  width: 100%;
+  top: 0;
+  background-color: #bfe6fb;
+  z-index: 50;
+}
+
+li {
+  font-size: 20px;
+}
+.container-fluid li:hover {
+  background-image: url(resources/cloud.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+}
+
+.homebg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#gallerybg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#arrowr {
+  height: 10%;
+  width: 45%;
+}
+#arrowl {
+  height: 10%;
+  width: 45%;
+}
+.teambg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.aboutbg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/*Download Page*/
+#modulebg {
+  background: url(resources/uibg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff301;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#fmd {
+  text-decoration: none;
+  font-size: 25px;
+  color: #0072bc;
+  font-weight: bold;
+}
+#arrowleft-m {
+  height: 10%;
+  width: 60%;
+}
+#arrowright-m {
+  height: 10%;
+  width: 80%;
+}
+
+#dl {
+  font-size: 25px;
+  color: #fff301;
+  text-decoration: none;
+}
+#arrowleft {
+  height: 35%;
+  width: 90%;
+}
+#arrowright {
+  height: 35%;
+  width: 90%;
+}
+
+#bottom-note {
+  background-color: #0072bc;
+}
+#h1txt {
+  color: #fff301;
+  font-size: 50px;
+  font-weight: bolder;
+}
+#overtext {
+  background-color: #fff301;
+  padding: 15px;
+}
+#comdev {
+  background-color: #fff301;
+  padding: 30px;
+}
+#follow {
+  background-color: #49be25;
+  padding: 50px;
+}
+#flogo {
+  width: 70px;
+  transition: opacity 0.3s ease;
+}
+#flogo:hover {
+  opacity: 0.5;
+}
+
+footer {
+  text-align: center;
+
+  padding: 10px;
+}
